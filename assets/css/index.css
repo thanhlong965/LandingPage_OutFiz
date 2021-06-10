@@ -697,7 +697,7 @@ textarea {
 
 body {
   
-  font: 400 15  px/1.8 'Roboto', sans-serif;
+  font: 400 16px/1.8 'Roboto', sans-serif;
   color: #2D2D2D;
   overflow-x: hidden;
   
@@ -708,7 +708,7 @@ a{
  color: #2D2D2D;
 }
 img{
-  object-fit:cover;
+  object-fit:contain;
   width: 100%;
   height: 100%;
 }
@@ -736,7 +736,7 @@ section{
   padding-left: 120px;
 }
 .outfiz h2{
-  font-size: 70px;
+  font-size: 80px;
   font-weight: 900;
   margin-top:90px;
   letter-spacing: 5px;
@@ -744,23 +744,31 @@ section{
   
 }
 .outfiz .content{
-  font-size: 25px;
+  font-size: 28px;
   margin-bottom: 30px;
   letter-spacing: 1px;
-  font-weight: 300;
+  font-weight: 400;
   text-transform: uppercase;
   line-height: 30px;
 }
 .brand{
   
-  font-size: 20px;
-  font-weight: 500;
-  padding: 5px 20px;
-  border :1px solid black;
-  border-radius: 5px;
-  line-height: 20px;
-  display: inline-block;
+  font-size: 28px;
+    font-weight: 600;
+    padding: 5px 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    
+    display: inline-block;
   
+}
+.Dang-ky-ngay .lo-lem{
+  height: 100%;
+  position: relative;
+}
+.lo-lem img{
+  object-fit: cover;
+  object-position: 40% 40%;
 }
 .Loi-ich{
   padding: 0 40px;
@@ -780,8 +788,8 @@ section{
 }
 .content h5{
   text-transform: uppercase;
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 18px;
+  font-weight: 700;
   margin-bottom: 10px;
 }
 .tieu-de-2{
@@ -813,7 +821,7 @@ section{
 .tieu-de{
   text-transform: uppercase;
   font-size: 20px ;
-  font-weight: 600;
+  font-weight: 700;
   text-align: center;
 }
 .giai-phap .tieu-de{
@@ -859,6 +867,12 @@ section{
 #Dang-ky-ban-hang{
   background-color: #f6f8fa;
 }
+.side-img{
+  height: 100%;
+  
+  
+}
+
 .form-dang-ky{
   padding:20px;
 }
@@ -867,7 +881,7 @@ section{
 }
 .form-control-1{
   display: inline;
-  font-size: 12px;
+  font-size: 16px;
   padding: .375rem .75rem;
   color: #212529;
   border: 1px solid #ced4da;
@@ -897,19 +911,20 @@ label{
   line-height: 35px;
 }
 .dang-ky-ngay{
-  
+  margin-top: 30px;
   width: 100%;
   
 }
 .btn-dang-ky{
-  height: 35px;
-  width: 200px;
+  height: 50px;
+  width: 250px;
   margin: 0 auto;
   background-color:#fcb43d;
   color: white;
   border-radius: 4px;
-  
-  
+  font-size: 24px;
+  line-height: 40px;
+  padding: 0;
 }
 #Hop-tac{
   padding:20px 60px;
