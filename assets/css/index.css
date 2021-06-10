@@ -145,7 +145,7 @@ h1 {
   margin-top: -10px;
   width: 4px;
   height: 10px;
-  border-radius: 10px;
+  border-radius: 10px;padding: 20px;
   display: block;
   background: white;
   animation: cursor 1s linear infinite;
@@ -694,15 +694,21 @@ textarea {
 #home .scroll-up {
   display: none;
 } */
+
 body {
-  padding:0 100px 0;
-  font: 400 12px/1.8 "Poppins", sans-serif;
-  color: #414141;
+  
+  font: 400 15  px/1.8 'Roboto', sans-serif;
+  color: #2D2D2D;
   overflow-x: hidden;
   
 }
+a{
+ outline: none;
+ text-decoration: none;
+ color: #2D2D2D;
+}
 img{
-  object-fit: cover;
+  object-fit:cover;
   width: 100%;
   height: 100%;
 }
@@ -721,37 +727,38 @@ section{
 }
 #Giai-phap .Dang-ky-ngay{
   position: relative;
-  padding-left: 30px;
+  
   height: 400px;
 }
-#Giai-phap .Dang-ky-ngay .col-6{
-  padding:0;
-  padding-left: 50px;
-}
+
 #Giai-phap .Dang-ky-ngay .outfiz{
-  text-transform: uppercase;
   
+  padding-left: 120px;
 }
 .outfiz h2{
   font-size: 70px;
-  font-weight: 800;
+  font-weight: 900;
   margin-top:90px;
-  
+  letter-spacing: 5px;
   line-height: 70px;
   
 }
 .outfiz .content{
-  font-size: 20px;
+  font-size: 25px;
   margin-bottom: 30px;
+  letter-spacing: 1px;
+  font-weight: 300;
+  text-transform: uppercase;
+  line-height: 30px;
 }
 .brand{
   
   font-size: 20px;
   font-weight: 500;
-  padding: 5px 15px;
-  border :2px solid black;
+  padding: 5px 20px;
+  border :1px solid black;
   border-radius: 5px;
-  
+  line-height: 20px;
   display: inline-block;
   
 }
@@ -762,27 +769,33 @@ section{
 .Loi-ich .Quan-ly{
   text-align: center;
   padding: 0 10px 0;
-  height: 200px;
+  
+  z-index: 100;
 }
 .Loi-ich .Quan-ly .content
 {
-  padding-top: 20px;
+  padding: 20px;
   height: 100%;
   background-color: #eeeeee;
 }
 .content h5{
   text-transform: uppercase;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 600;
   margin-bottom: 10px;
 }
-#Cac-goi-giai-phap .tieu-de{
+.tieu-de-2{
   padding-bottom: 30px;
  
 }
 .goi-giai-phap{
   height: 250px;
   
+}
+.goi-giai-phap .hinh-anh
+{
+  padding:0 10%;
+  height: 100%;
 }
 .noi-dung{
   display: flex;
@@ -791,7 +804,7 @@ section{
   flex-wrap: wrap;
   justify-content: center;
   align-items: center ;
-  font-size: 15px ;
+  font-size: 20px ;
   line-height: 25px;
   text-align: center;
   font-weight: 400;
@@ -799,7 +812,7 @@ section{
 }
 .tieu-de{
   text-transform: uppercase;
-  font-size: 18px ;
+  font-size: 20px ;
   font-weight: 600;
   text-align: center;
 }
@@ -821,6 +834,7 @@ section{
   top:50%;
   transform: translateY(-100%);
   background-color: #fcb43d;
+  z-index: -1;
 }
 
 .circle{
@@ -842,3 +856,98 @@ section{
   text-transform: uppercase;
   line-height: 30px;
 }
+#Dang-ky-ban-hang{
+  background-color: #f6f8fa;
+}
+.form-dang-ky{
+  padding:20px;
+}
+.form-group{
+  justify-content: space-between;
+}
+.form-control-1{
+  display: inline;
+  font-size: 12px;
+  padding: .375rem .75rem;
+  color: #212529;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  
+}
+.form-control-1:focus{
+  color: #212529;
+  background-color: #fff;
+  border-color: #86b7fe;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+}
+.tieu-de-3{
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+.cam-on{
+  text-align: center;
+}
+.form-group{
+  padding:10px 0;
+}
+label{
+  font-weight: bold;
+  line-height: 35px;
+}
+.dang-ky-ngay{
+  
+  width: 100%;
+  
+}
+.btn-dang-ky{
+  height: 35px;
+  width: 200px;
+  margin: 0 auto;
+  background-color:#fcb43d;
+  color: white;
+  border-radius: 4px;
+  
+  
+}
+#Hop-tac{
+  padding:20px 60px;
+  
+}
+.logo-1{
+  padding: 0 15px;
+  
+}
+.logo-1 img{
+  border: 1px solid #c6c6c6;
+  border-radius: 4px;
+}
+#Lien-lac{
+  padding: 50px;
+  background: #2e2e2e;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+}
+.dia-chi-1{
+  align-items: center;
+  padding:5px;
+  justify-items: center;
+}
+.dia-chi-1 div{
+  position: relative;
+  margin-left: 10px;
+}
+i{
+  
+  font-size:15px;
+  line-height: 21px;
+  width: 15px;
+}
+
+.cap-phep{
+  width: 100%;
+  text-align: right;
+}
+
