@@ -816,7 +816,7 @@ section{
   line-height: 25px;
   text-align: center;
   font-weight: 400;
-  
+  padding:20px;
 }
 .tieu-de{
   text-transform: uppercase;
@@ -838,7 +838,7 @@ section{
   content: "";
   position: absolute;
   width: 80%;
-  height: 2px;
+  height: 5px;
   top:50%;
   transform: translateY(-100%);
   background-color: #fcb43d;
@@ -867,15 +867,41 @@ section{
 #Dang-ky-ban-hang{
   background-color: #f6f8fa;
 }
-.side-img{
+.dang-ky-1{
+  height: fit-content;
+}
+ .side-img{
   height: 100%;
+}
+/* .side-img .col-6{
+  height: 100%;
+}  */
+.side-img img{
+  object-fit: cover;
   
-  
+}
+.side-img .bong-hoa{
+  padding:0 5px 5px 0;
+  height: 25%;
+}
+.side-img .suzy-1{
+  padding:5px 5px 0 0;
+  height: 75%;
+}
+.side-img .suzy-2{
+  padding-left:5px;
+  padding-bottom: 5px;
+  height: 75%;
+}
+.side-img .sky{
+  padding:5px 0 0 5px;
+  height: 25%;
+}
+.form{
+  padding:20px;
+  height: 100%;
 }
 
-.form-dang-ky{
-  padding:20px;
-}
 .form-group{
   justify-content: space-between;
 }
@@ -902,6 +928,7 @@ section{
 }
 .cam-on{
   text-align: center;
+  color: #262626;
 }
 .form-group{
   padding:10px 0;
